@@ -1,0 +1,10 @@
+# Default ignored files
+*.iml
+*.class
+*.classpath
+*.project
+*.prefs
+*.properties
+*.MF
+*.bat
+*.settings
