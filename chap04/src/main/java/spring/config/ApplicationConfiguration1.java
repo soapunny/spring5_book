@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 import spring.layer.memberStorage.MemberDAO;
 import spring.util.MemberPrinter;
+import spring.util.MemberSummaryPrinter;
 import spring.util.VersionPrinter;
 
 @Configuration
@@ -25,6 +26,11 @@ public class ApplicationConfiguration1 {
 	@Bean
 	public MemberPrinter memberPrinter() {
 		return new MemberPrinter();
+	}
+	
+	@Bean
+	public MemberSummaryPrinter memberPrinter2() {
+		return new MemberSummaryPrinter();
 	}
 	
 	@Bean
